@@ -8,7 +8,7 @@
  * 
  * Hardware Connections:
  *   - LM35 VCC  -> ESP32 5V
- *   - LM35 OUT  -> ESP32 GPIO 35
+ *   - LM35 OUT  -> ESP32 GPIO 34
  *   - LM35 GND  -> ESP32 GND
  *   - LCD RS    -> GPIO 27
  *   - LCD EN    -> GPIO 14
