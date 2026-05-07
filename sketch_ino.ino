@@ -1,6 +1,6 @@
 /*
  * Project: ESP32 Temperature Monitor
- * Author: [Your Name]
+ * Author: George Tomeh
  * Description: 
  *   This code reads temperature from an LM35 sensor connected to GPIO 35,
  *   displays it on a 16x2 LCD, connects to WiFi, and uploads data to
