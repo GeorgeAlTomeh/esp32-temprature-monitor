@@ -1,2 +1,6 @@
 # secret config file
 config.h
+
+# node files
+server/node_modules
+node_modules
