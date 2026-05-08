@@ -311,37 +311,6 @@ Open a browser and go to http://localhost:3000/logs. You will see all temperatur
 2025-05-08T14:31:00.000Z, 25.2
 ```
 
-Troubleshooting
-
-Problem Solution
-LCD shows nothing Adjust potentiometer. Check 5V and GND connections.
-LCD shows blocks Contrast is wrong. Turn potentiometer.
-Temperature reads 2-4°C LM35 powered by 3.3V. Move VCC to 5V.
-Temperature reads -0.1°C LM35 pins swapped. Reverse left and right wires.
-WiFi won't connect Check SSID and password. Move ESP32 closer to router.
-ESP32 cannot reach server Ensure computer IP is correct. Disable firewall temporarily.
-Server not receiving data Run node server.js and check that console shows "Server running".
-
-Repository Structure
-
-```
-esp32-temperature-monitor/
-├── esp32_code.ino          # ESP32 sketch
-├── server/                 # Node.js server folder
-│   ├── server.js           # Main server code
-│   ├── package.json        # Dependencies
-│   └── temperature_log.txt # Log file (auto-generated)
-└── README.md               # This file
-```
-
-Future Improvements
-
-· Add humidity sensor (DHT22)
-· Deploy Node.js server to cloud (Render, Railway) for 24/7 access
-· Add a chart to the /logs page using Chart.js
-· Add buzzer alert for dangerous temperatures
-· Add deep sleep for battery-powered operation
-
 License
 
 This project is open source under the MIT License.
