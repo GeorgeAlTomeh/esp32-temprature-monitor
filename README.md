@@ -1,4 +1,3 @@
-```markdown
 # ESP32 Temperature Monitor with Node.js Server
 
 [![Platform](https://img.shields.io/badge/platform-ESP32-blue)]()
