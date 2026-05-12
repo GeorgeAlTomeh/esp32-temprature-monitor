@@ -4,11 +4,15 @@
 [![Language](https://img.shields.io/badge/language-C%2B%2B-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
-## Overview
+## Short Story
 
-This project reads temperature from an **LM35 analog sensor** using an **ESP32**, displays the temperature on a **16x2 LCD**, connects to **WiFi**, and sends the data to a **custom Node.js server** using HTTP POST requests. The server logs every reading to a text file and provides a simple web page to view all logged data.
+I made this project as a **safety monitor** to my scout troop knowing the realtime temperature in the places we go camp in 
 
-The system is designed as a **safety monitor for scout hikes** – leaders can view real-time temperature data on the LCD or by opening the server's log page on any device on the same network.
+I made it using esp32 that makes a post request to a node.js server - which I also made and is in this repo too - and by the time the server receives the request it writes the data into a local database (txt file based)
+
+with a simple page to view the data in realtime
+
+leaders can open this page from wherever place on the planet earth with internet connection once deployed
 
 ## Features
 
