@@ -6,7 +6,7 @@
 
 ## Short Story
 
-I made this project as a **safety monitor** to my scout troop knowing the realtime temperature in the places we go camp in 
+I made this project as a **safety monitor** to know the real-time temperature in the places we go camp in 
 
 I made it using esp32 that makes a post request to a node.js server - which I also made and is in this repo too - and by the time the server receives the request it writes the data into a local database (txt file based)
 
